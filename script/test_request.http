@@ -1,0 +1,9 @@
+@domain = 127.0.0.1
+@port = 80
+
+POST http://{{domain}}:{{port}}/tool/ping?name=John2
+Content-Type: application/json
+
+{
+    "name": "John Doe"
+}
